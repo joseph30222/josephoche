@@ -1,0 +1,29 @@
+{
+  "name": "josephoche",
+  "version": "1.0.0",
+  "description": "Part 1: Hardhat vs Foundry ### Section 1 | Feature            | Hardhat                            | Foundry                             | |--------------------|-------------------------------------|--------------------------------------| | Language Support   | JavaScript/TypeScript               | Solidity native scripting (Forge)   | | Compilation        | Customizable via plugins            | Extremely fast built-in compiler    | | Testing Framework  | Mocha/Chai                          | Forge (Solidity-based)              | | Deployment         | JavaScript/TypeScript scripts       | Solidity-native scripts             | | Tooling            | Rich plugin ecosystem               | Minimal, focused tooling            | | IDE Integration    | Great with VS Code                  | Primarily CLI-based                 | | Learning Curve     | Easier for JS developers            | Easier for Solidity developers      | | Gas Reporting      | Via plugin                          | Built-in with high performance      |",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-ignition": "^0.15.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.23.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "typechain": "^8.3.0"
+  }
+}
