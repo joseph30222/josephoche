@@ -1,4 +1,4 @@
-###Smart Contract Tools Comparison
+### Smart Contract Tools Comparison
 
 Part 1: Hardhat vs Foundry
 ### Section 1
