@@ -4,9 +4,10 @@ require("@nomicfoundation/hardhat-toolbox");
 module.exports = {
   solidity: "0.8.28",
   networks: {
-    liskSepolia: {
-      url: "https://rpc.sepolia.lisk.com",
-      accounts: [process.env.WALLET_KEY],
+    'lisk-sepolia': {
+      url: 'https://rpc.sepolia-api.lisk.com',
+      accounts: [`0x${process.env.WALLET_KEY}`],
+      gasPrice: 1000000000,
       chainId: 4202,
     },
   },
